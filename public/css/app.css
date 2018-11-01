@@ -1,0 +1,99 @@
+html, body {
+  margin: 0px;
+  background: #EAEAEA;
+}
+
+.site-wrapper {
+  height: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#app {
+  margin: 0;overflow-x: hidden;
+}
+header {
+  background: #F7FF4F;
+  height: 50px;
+  width: 100%;
+}
+
+header div {
+  height: 50px !important;
+}
+
+header div.row:first-child img#logo{
+  margin-left: 50%;
+  margin-top: 10px;
+}
+
+header input{
+  margin-top: 8px;  
+  padding-left: 10px !important;
+}
+header .search-wrapper {
+  height: 35px !important;
+  position: relative;
+}
+header .nav-icon-search{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 10px;
+  top: 9px;
+  cursor: pointer;
+}
+
+.main-section {
+  padding: 10px 10px;
+  background: #FFFF;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  min-height: 500px;
+  overflow-x: hidden;
+}
+
+.product-section .item-product {
+  height: 200px;
+} 
+
+.product-section a .item-product {
+  color:#333;
+}
+.product-section .row {
+  padding: 20px 20px;
+} 
+.product-section .item-product:not(:last-child) {
+  border-bottom: #EAEAEA solid 1px; 
+} 
+
+.item-product i {
+  margin-left: 10px;
+}
+.item-product i img{
+  vertical-align: baseline;
+}
+
+.results-label {
+  color:#666;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.product-detail .row {
+  padding: 20px 20px;
+} 
+
+.product-detail h4 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.product-detail button {
+  width: 90%;
+  height: 40px;
+  margin-top: 20px;
+  background: #3483fa;
+  border: none;
+}
+.product-detail p {
+  font-size: 12px;
+}
